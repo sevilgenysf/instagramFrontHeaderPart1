@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Dela+Gothic+One&family=Oxygen:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header {
+  padding: 1em;
+  box-shadow: 0 0 0 4px white, 0 3px 2px rgb(46, 45, 45);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.svgIconsConteiner{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header-content {
+  color: #212121;
+}
+
+.header-nav-conteiner .header-list {
+  display: flex;
+}
+
+.header-nav-conteiner .header-list li{
+  list-style: none; 
+  margin: 0.75em 0.75em;
+}
+
+.header-nav-conteiner .header-list li a{
+  text-decoration: none;
+  list-style: none;
+  color: #212121;
+}
